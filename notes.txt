@@ -2,3 +2,8 @@
 - create basic file stucture
 - create responsive design (desktop/tablet/phone)
 - create images required for this design
+
+
+
+.time*4>.value+.title
+rezultatas matyt html clock

@@ -14,4 +14,40 @@
 
 
 /* costume */
+.hero {
+    padding-bottom: 30px;
+    background-image: url(../../img/background.png);
+    background-size: cover;
+    background-position: center;   
+    min-height: 100vh; 
+    background-attachment: fixed;
+}
+/*  .hero . row-short*/
+.row-short:first-of-type {
+    text-align: center;
+}
+.hero .logo {
+    margin-bottom: 45px;
+    height: 50px;
+    width: 100%;
+    object-fit: contain;
+    position: center;
+}
+.hero .main-title {  
+    margin-bottom: 15px;
+    font-size: 40px;
+    text-transform: uppercase;
 
+}
+.hero .description {
+    margin-bottom: 45px;
+    color: #777;
+    font-size: 18px;
+
+}
+.hero .clock {
+    margin-bottom: 45px;
+}
+.hero .form {
+    margin-bottom: 15px;
+}
