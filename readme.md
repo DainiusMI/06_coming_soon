@@ -8,5 +8,5 @@ https://dainiusmi.github.io/06_coming_soon/
 https://cdn.discordapp.com/attachments/850245533838868480/850246473362178048/coming-soon-wide.png
 
 ## GOALS:
-- learn about respoinsive design
+- learn about responsive design
 - css animation basics
