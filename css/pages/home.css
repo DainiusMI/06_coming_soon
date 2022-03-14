@@ -1,0 +1,17 @@
+/* base */
+    @import "../base/reset.css";
+    @import "../base/layout.css";
+    @import "../base/variables.css";
+
+/* 3rd party components,  KAD NEGADINTU MUSU CSS COMPONENTU ZEMIAU */
+
+/* components */
+    @import "../components/button.css";
+    @import "../components/clock.css";
+    @import "../components/form.css";
+    @import "../components/mouse.css";
+    @import "../components/prgoress_bar.css";
+
+
+/* costume */
+

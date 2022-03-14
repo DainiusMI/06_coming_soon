@@ -1,0 +1,4 @@
+- 
+- create basic file stucture
+- create responsive design (desktop/tablet/phone)
+- create images required for this design
