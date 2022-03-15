@@ -7,3 +7,14 @@
 
 .time*4>.value+.title
 rezultatas matyt html clock
+
+COLUMM ELEMENTU SPACINIMAS
+.columm > * {
+    margin-bottom: 30px;
+}
+.columm > *:last-child {
+    margin-bottom: 0;
+}
+
+SPALVU GENERATORIUS
+https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
