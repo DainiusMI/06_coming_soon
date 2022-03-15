@@ -57,4 +57,7 @@
         width: 100%;
         margin-left: 0;
     }
+    .row-short .clock .time {
+        width: 50%;    
+    }
 }

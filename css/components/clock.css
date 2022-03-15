@@ -1,12 +1,23 @@
 .clock {
-    
+    display: inline-block;
+    width: 100%;
+    color: #fff;
 }
-.clock .time {
-
+.clock .time { 
+    width: 25%;
+    text-align: center;
+    float: left;
+    margin: 15px 0;
 }
 .clock .value {
-
+    display: inline-block;
+    font-family: cursive;
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
 }
 .clock .title {
-    
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
 }
