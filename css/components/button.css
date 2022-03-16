@@ -10,8 +10,10 @@
     cursor: pointer;
 
 }
+.btn.btn-hero:hover,
 .btn:hover {
-    background-color: var(--secondary-color2);    
+    background-color: var(--secondary-color2);  
+    color: #fff;  
 }
 .btn-hero {    
     border-radius: 1.3em;

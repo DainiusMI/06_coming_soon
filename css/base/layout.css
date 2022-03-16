@@ -48,6 +48,9 @@
     body .footer .trio p::after {
         display: none;
     }
+    .btn.btn-hero {
+        display: none;
+    }
 
 }
 @media (max-width: 460px) {
@@ -76,6 +79,6 @@
     .row-short .clock .time {
         width: 50%;    
     }
-
+    
       
 }
