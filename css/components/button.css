@@ -1,8 +1,10 @@
 .btn {
     padding: .8em 1.2em;
     font-size: 20px;
+    text-align: center;
     border-radius: .1em;
     border: none;
+    text-decoration: none;
     background-color: var(--secondary-color);
     color: #fff;
     cursor: pointer;
@@ -10,4 +12,10 @@
 }
 .btn:hover {
     background-color: var(--secondary-color2);    
+}
+.btn-hero {    
+    border-radius: 1.3em;
+    width: 2.6em;
+    padding-left: 0;
+    padding-right: 0;
 }

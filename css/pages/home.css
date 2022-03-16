@@ -111,6 +111,9 @@ body .footer {
   
   border-bottom: 2px solid #fff;
 }
+.social {
+    position: relative;
+}
 .social a {
   text-decoration: none;
   font-size: 20px;
@@ -168,4 +171,13 @@ body .footer .trio p:last-of-type:after {display: none;}
   color: #fff;
   text-decoration: none;
  
+}
+.btn.btn-hero {
+    position:absolute;
+    height: 2.6em;
+    width: 2.6em;
+    line-height: inherit;
+    font-size: inherit;
+    top: -1.1em;
+    right: -2em;
 }
