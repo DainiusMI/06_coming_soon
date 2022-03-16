@@ -1,108 +1,171 @@
 /* base */
-    @import "../base/reset.css";
-    @import "../base/layout.css";
-    @import "../base/variables.css";
+@import "../base/reset.css";
+@import "../base/layout.css";
+@import "../base/variables.css";
 
 /* 3rd party components,  KAD NEGADINTU MUSU CSS COMPONENTU ZEMIAU */
-
+@import "../all.css";
+@import "../components/brands.css";
 /* components */
-    @import "../components/button.css";
-    @import "../components/clock.css";
-    @import "../components/form.css";
-    @import "../components/mouse.css";
-    @import "../components/prgoress_bar.css";
-
+@import "../components/button.css";
+@import "../components/clock.css";
+@import "../components/form.css";
+@import "../components/mouse.css";
+@import "../components/prgoress_bar.css";
 
 /* costume */
 .hero {
-    padding-bottom: 30px;
-    background-image: url(../../img/background.png);
-    background-size: cover;
-    background-position: center;   
-    min-height: 100vh; 
-    background-attachment: fixed;
+  padding-bottom: 30px;
+  background-image: url(../../img/background.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  background-attachment: fixed;
 }
 /*  .hero . row-short*/
 .row-short:first-of-type {
-    text-align: center;
+  text-align: center;
 }
 .hero .logo {
-    margin-bottom: 45px;
-    height: 50px;
-    width: 100%;
-    object-fit: contain;
-    position: center;
+  margin-bottom: 45px;
+  height: 50px;
+  width: 100%;
+  object-fit: contain;
+  position: center;
 }
-.hero .main-title {  
-    margin-bottom: 15px;
-    font-size: 40px;
-    text-transform: uppercase;
-
+.hero .main-title {
+  margin-bottom: 15px;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 .hero .description {
-    margin-bottom: 30px;
-    color: #777;
-    font-size: 18px;
-
+  margin-bottom: 30px;
+  color: #777;
+  font-size: 18px;
 }
 .hero .clock {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .hero .form {
-    width: 90%;
-    margin:0 5% 15px;
+  width: 90%;
+  margin: 0 5% 15px;
 }
 /* ## CONTENT ##  */
 
 .columm > * {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .columm > *:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
- .container .content-title {
-
-    text-transform: uppercase;
-    font-size: 20px;
-    line-height: 1em;   /*1em==font-size*/
-
-
+.container .content-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 1em; /*1em==font-size*/
 }
 .container .content-description {
-
-    color: #777;
-    font-size: 17px;
-    
-
+  color: #777;
+  font-size: 17px;
 }
 
 .content-description .link {
-    color: var(--secondary-color);
-    text-decoration: none;
+  color: var(--secondary-color);
+  text-decoration: none;
 }
 .content-description .link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .short-row > .form {
-
 }
 .columm .form > input {
-    width: calc(50% - 10px);
+  width: calc(50% - 10px);
 }
 /*.form > input:nth-child(2)  */
 .columm .form > input:last-of-type {
-    float:right;
+  float: right;
 }
 
-.hero .form  > .link{
-    color: #fff;
-    border-color: currentColor;
-
+.hero .form > .link {
+  color: #fff;
+  border-color: currentColor;
 }
-.hero .form  > .link::placeholder{
-    color: currentColor;      
+.hero .form > .link::placeholder {
+  color: currentColor;
 }
 .columm .form > .btn {
-    float: right;
+  float: right;
+}
+
+  
+
+
+/* FOOTER */
+body .footer {
+  padding-top: 0px;
+  text-align: center;
+ 
+}
+.footer .row {
+  padding: 15px 0;
+  
+  border-bottom: 2px solid #fff;
+}
+.social a {
+  text-decoration: none;
+  font-size: 20px;
+  width: 1.8em;
+  height: 1.8em;
+  line-height: 1.8em;
+  color: #fff;
+  border-radius: 50%;
+
+  transition: all .5s;
+   
+}
+.footer {
+  color: #fff8;
+  
+}
+.footer a:hover {
+  background-color: #fff8;
+  color: var(--primary-blue);
+
+}
+.footer .logo {
+  max-height: 50px;
+  width: 100%;
+  object-fit: contain;
+  object-position: top;
+  margin: 50px 0;
+        
+}
+.footer .trio {
+  display: inline-block;
+}
+body .footer .trio  p{
+  
+  display: inline-block;
+  padding: 0 10px; 
+  position: relative;
+}
+ .footer .trio p::after {
+  display: inline-block;
+  content: '';
+  background-color: #fff;
+  width: 1px;
+  height: 1em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-50% -50%);
+}
+body .footer .trio p:last-of-type:after {display: none;}
+
+
+
+.footer  p>a{
+  color: #fff;
+  text-decoration: none;
+ 
 }
