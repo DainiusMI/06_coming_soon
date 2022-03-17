@@ -23,6 +23,26 @@
     background-color: #777;
 }
 .progress-bar .bottom .bar {   
+    width: 90%;
+    height: 100%;
+
+}
+.progress-bar .bottom .bar .loading {
+    width: 0;
     height: 100%;
     background-color:var(--primary-blue);
+    animation-name: filling-up;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes filling-up {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+
 }
